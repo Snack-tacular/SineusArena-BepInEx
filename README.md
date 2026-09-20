@@ -10,12 +10,19 @@ Normally, running BepInEx on Sineus Arena fails or hangs during startup due to t
 
 ---
 
-## 📦 Downloads
+## 📦 Download
 
-Grab the latest ready-to-use package from the **[Releases Page](https://github.com/Snack-tacular/SineusArena-BepInEx/releases)**:
+Download the complete plug-and-play package from the **[Latest Release](https://github.com/Snack-tacular/SineusArena-BepInEx/releases/latest)**:
 
-- **[SineusArena-BepInEx-v6.0.0-Full.zip](https://github.com/Snack-tacular/SineusArena-BepInEx/releases/latest)** *(Recommended for players)*: Complete plug-and-play package including `BepInEx`, `dotnet` (CoreCLR runtime), `doorstop_config.ini`, and `winhttp.dll`.
-- **[SineusArena-BepInEx-v6.0.0-FolderOnly.zip](https://github.com/Snack-tacular/SineusArena-BepInEx/releases/latest)**: Just the pre-configured `BepInEx` directory if you already have Doorstop and CoreCLR installed.
+- **[SineusArena-BepInEx.zip](https://github.com/Snack-tacular/SineusArena-BepInEx/releases/latest/download/SineusArena-BepInEx.zip)** *(Full Plug & Play package)*
+
+The archive includes:
+- `BepInEx/` — Pre-configured BepInEx 6 folder with generated Unity 6000.4.1 interop assemblies
+- `dotnet/` — CoreCLR runtime required by IL2CPP BepInEx
+- `doorstop_config.ini` — Unity Doorstop configuration file
+- `winhttp.dll` — Unity Doorstop proxy loader
+- `.doorstop_version` — Doorstop version metadata
+- `changelog.txt` — BepInEx changelog
 
 ---
 
@@ -30,7 +37,7 @@ Grab the latest ready-to-use package from the **[Releases Page](https://github.c
 
 ## 🚀 Installation Guide
 
-1. Download **`SineusArena-BepInEx-v6.0.0-Full.zip`** from the [Releases](https://github.com/Snack-tacular/SineusArena-BepInEx/releases) tab.
+1. Download **`SineusArena-BepInEx.zip`** from the [Releases](https://github.com/Snack-tacular/SineusArena-BepInEx/releases) tab.
 2. Locate your **Sineus Arena** installation directory.
    - Typically:
      ```
@@ -53,6 +60,8 @@ Sineus Arena/
 │   ├── plugins/              <-- Place your mod DLLs here!
 │   └── unity-libs/
 ├── dotnet/                   (CoreCLR runtime)
+├── .doorstop_version
+├── changelog.txt
 ├── doorstop_config.ini       (Doorstop boot configuration)
 ├── winhttp.dll               (Doorstop proxy loader)
 ├── SineusArena.exe
