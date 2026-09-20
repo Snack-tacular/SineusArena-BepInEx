@@ -82,19 +82,6 @@ To install mods:
    ```
 3. Launch the game.
 
-### Compatible Mods for Sineus Arena
-Check out these mods designed for Sineus Arena:
-- [PowerupMinimap](https://github.com/Snack-tacular/PowerupMinimap) — Live powerup icons on the minimap overlay.
-- [DPSMeter](https://github.com/Snack-tacular/DPSMeter) — Real-time damage and DPS breakdown with character skin icons.
-- [ObjectTrackerMod](https://github.com/Snack-tacular/ObjectTrackerMod) — Real-time on-screen tracker for map objects and chests.
-- [QuestTrackerMod](https://github.com/Snack-tacular/QuestTrackerMod) — In-game quest tracker with progress and pinning.
-- [ZoomOutMod](https://github.com/Snack-tacular/ZoomOutMod) — Customizable camera zoom out distance.
-- [MonsterHPBars](https://github.com/Snack-tacular/MonsterHPBars) — Overhead health bars for enemies.
-- [ModSettingsMenu](https://github.com/Snack-tacular/ModSettingsMenu) — In-game UI settings menu for configuring mods.
-- [TowerStatsMod](https://github.com/Snack-tacular/TowerStatsMod) — Real-time tower DPS and kill counts.
-- [buildingleveldisplay](https://github.com/Snack-tacular/buildingleveldisplay) — Building current and max level indicators.
-- [ChestWindowMove](https://github.com/Snack-tacular/ChestWindowMove) — Repositioned and cleaned up chest selection window.
-
 ---
 
 ## 🛠 For Mod Developers
