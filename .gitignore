@@ -1,0 +1,21 @@
+# Logs
+*.log
+LogOutput.log
+ErrorLog.log
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.swp
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Root archives
+/*.zip
+/*.7z
+/*.rar
+/*.tar.gz
